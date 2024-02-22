@@ -1,0 +1,16 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  padding: 10px;
+  align-items: center;
+  &__import {
+    display: flex;
+    align-items: center;
+    &__button {
+      background-color: blue;
+      color: white;
+    }
+  }
+}
